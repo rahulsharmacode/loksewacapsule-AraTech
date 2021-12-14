@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Readex Pro', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  min-height: 100vh;
+position: relative;
+}
+
+
+.navbar{
+  background-color: darkblue;
+  align-items: center;
+  position: relative;
+  height: 50px;
+  display: flex;
+
+}
+
+.logo{
+  margin-left: 20px;
+  color: white;
+}
+
+.nav_item{
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.nav_item:hover{
+  background-color: white;
+  color: darkblue;
+}
+.active{
+  border-bottom: 1px solid white;
+}
+
+
+/*--------hero---------*/
+
+.hero{
+  height: 60vh;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.37),rgba(255, 255, 255, 0.26)), url(https://1.bp.blogspot.com/-p_OJr95Tuhc/XculnAMb3GI/AAAAAAAAVfo/RSvM3F2r9OU-xycJtkgCdAPHFPsK3ocqACLcBGAsYHQ/s640/Lok-Sewa-Aayog.png) ;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: white;
+padding: 20%;
+}
+
+.hero button{
+  margin-top: 10px;
+  background-color: darkblue;
+  padding: 5px 15px 5px 15px;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+}
+
+.hero button:hover{
+  background-color: white;
+  color: darkblue;
+  box-shadow: 3px 3px darkblue;
+  transform: translateX(3px);
+  transition: ease-out 0.3s;
+}
+
+/*---------category ---------*/
+
+.cat_home h2{
+  color: darkblue;
+  margin: 20px 15px;
+}
+
+/*---------Footer ---------*/
+
+.footer{
+  background-color: darkblue;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }

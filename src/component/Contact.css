@@ -1,0 +1,78 @@
+.contact p{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.contact h3{
+margin-left: 23%;
+color: darkblue;
+}
+
+.contact .forms{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.contact .forms input{
+    width: 350px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid darkblue;
+    border-radius: 2px;
+
+
+}
+
+.contact .forms textarea{
+    width: 350px;
+    margin: 10px;
+    padding: 5px;
+    height: 120px;
+    border: 1px solid darkblue;
+    border-radius: 2px;
+
+}
+
+.contact .forms .submit{
+  background-color: darkblue;
+  border: 2px solid rgba(0, 0, 0, 0.507);
+  cursor: pointer;
+  color: white;
+}
+
+
+.contact .forms .submit:hover{
+    background-color: white;
+    color: darkblue;
+    box-shadow: 3px 3px darkblue;
+    transform: translateX(3px);
+    transition: ease-out 0.3s;
+  }
+
+.contact .forms img{
+    margin-top: 0%;
+    height: 300px;
+    width: 300px;
+}
+
+.contactinfo{
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    position: absolute;
+    right: 13%;
+}
+
+.contactinfo i{
+    margin: 5px;
+}
+.contactinfo .fa{
+    margin: 5px;
+}
+.contactinfo a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}

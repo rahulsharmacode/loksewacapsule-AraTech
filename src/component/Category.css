@@ -1,0 +1,97 @@
+.category{
+    display: flex;
+flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.category img{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+    height: 200px;
+    width: 100%;
+}
+.category h3{
+color: white;
+text-align: center;
+
+}
+
+.cat_box{
+    padding-top: 5px;
+    background-color:rgb(82, 12, 53);
+    height: 260px;
+    width: 350px;
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    border-radius: 10px;
+}
+.cat_box:hover{
+    box-shadow: 3px 3px black;
+    transition: ease-out 0.3s;
+    transform: translateX(3px);
+    cursor: pointer;
+}
+
+.cat_box button{
+    position:absolute;
+    right: 0;
+    background-color: transparent;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+
+}
+
+.cat_box button:hover{
+    background-color: white;
+    color: darkblue;
+    transform: translateX(-3px);
+    transition: ease-out 0.3s;
+    border-radius: 2px;
+}
+
+
+/*--------------------News & Notice -----------*/
+
+.NewsLetter{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.NewsBox{
+    padding: 10px;
+    color: gray;
+    margin-bottom: 10%;
+}
+.NewsBox h3{
+    color: red;
+}
+
+.NewsBox button{
+    padding: 10px 55px 10px 55px;
+    background-color: darkblue;
+    border: none;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.NewsBox button:hover{
+    background-color: rgb(82, 12, 53);
+    color: darkblue;
+    transition: ease-out 0.3s;
+    border-radius: 2px;
+}
+
+.NewsBox .fa{
+    color: orange;
+}
+
+
+.NewsBox button .fa{
+color: white
+}
